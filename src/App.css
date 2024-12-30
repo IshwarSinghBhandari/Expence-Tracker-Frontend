@@ -1,0 +1,9 @@
+.link{
+  text-decoration: none;
+}
+.links{
+  color: aqua;
+}
+tr:nth-child(odd) {
+  background-color: black;
+}
