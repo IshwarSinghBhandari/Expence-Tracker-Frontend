@@ -55,7 +55,9 @@ export default function Signup() {
 
   return (
     <div className='container '>
-      <h1 className='text-center mt-4 mb-3'>SIGNUP</h1>
+   <h1 className='text-center'>Expence Tracker</h1>
+       <hr></hr>
+       <h3 className='text-center mt-4 mb-3'>SIGNUP</h3>
       <Form className='w-50 m-auto bg-white border border-1 p-4 rounded-2' onSubmit={handleSubmit}>
         <Form.Group className="mb-3">
           <Form.Control
